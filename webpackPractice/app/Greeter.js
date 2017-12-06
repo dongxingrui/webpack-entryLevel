@@ -13,6 +13,7 @@ import React, {Component} from 'react'
 import config from './config.json'
 import styles from './Greeter.css';//导入css
 
+//内容改变时可自动编译
 class Greeter extends Component{
 	render(){
 		return (
